@@ -1,0 +1,108 @@
+
+main {
+    background-image: url("../../images/authorization/фон.png");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-container {
+    max-width: 550px; 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    font-size: 1rem;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color:  #8c1b1b;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  #f62d2d;
+}
+
+.auth-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.auth-links a {
+    color: #8c1b1b;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.auth-links a:hover {
+    color: #f62d2d;
+}
+@media (max-width: 1280px) {
+    main{
+        height: 700px;
+    }
+}
+@media (max-width: 768px) {
+    main{
+        height: 550px;
+    }
+    .auth-container {
+        padding: 30px;
+    }
+    .auth-container {
+        max-width: 350px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    label {
+        font-size: 1rem;
+    }
+    input {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}

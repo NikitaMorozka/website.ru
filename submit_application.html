@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оставить заявку</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="files/submit_application/styles.css">
+  <link rel="stylesheet" href="files/styles.css">
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/index/logo.png" alt="Логотип">
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="submit_application.html">Оставить заявку</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="authorization.html">Авторизация</a>
+    </nav>
+    <div class="hamburger" id="hamburger-menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="image-section">
+      <img src="images/submit_application/фон.jpg" alt="Фото" class="image">
+    </section>
+    <section class="form-section">
+      <h1>Оставьте заявку</h1>
+      <form action="#" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Ваш телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-block">
+        <p>+7 (902) 009-41-150</p>
+        <p>nikitamorozka@gmail.com</p>
+      </div>
+
+      <div class="footer-block">
+        <p>График работы по будням</p>
+        <p>с 10:00 до 19:00</p>
+        <p>© Бизнес-галера г.Ульяновск 2025</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
